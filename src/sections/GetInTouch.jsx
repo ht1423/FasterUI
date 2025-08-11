@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from '../components/GetInTouchComp/Form'
-import Spiral from '../assets/GetInTouchAsset/Spiral.svg'
+import Spiral from '../assets/GetInTouchAsset/spiral.svg'
 
 function GetInTouch() {
   return (
