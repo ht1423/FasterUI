@@ -1,5 +1,6 @@
 import React from 'react'
 import Questions from '../components/FAQComp/Questions'
+import Spring from '../assets/FAQAsset/Spring.svg'
 
 function FAQ() {
   return (
@@ -8,7 +9,7 @@ function FAQ() {
       {/*Spring Background Image*/}
       <div className="absolute top-[2611px] w-[765px] h-[726px] left-[0px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat"
         style={{
-          backgroundImage: "url('/src/assets/FAQAsset/Spring.svg')",
+          backgroundImage: `url(${Spring})`,
           transform: 'rotate(-360deg)'
         }}
       />

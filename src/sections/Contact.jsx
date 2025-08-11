@@ -13,7 +13,7 @@ function Contact() {
       {/* Wheel Background Image */}
       <div className="absolute top-[3858px] w-[1098px] h-[525px] left-[0px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat"
         style={{
-          backgroundImage: "url('/src/assets/ContactAsset/wheel.svg')",
+          backgroundImage: `url(${Wheel})`,
         }}
       />
 

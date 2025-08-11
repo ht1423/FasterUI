@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from '../components/GetInTouchComp/Form'
+import Spiral from '../assets/GetInTouchAsset/Spiral.svg'
 
 function GetInTouch() {
   return (
@@ -8,7 +9,7 @@ function GetInTouch() {
       {/*SPrial Background Image*/}
       <div className="absolute top-[3377px] left-[1107px] w-[235px] h-[218px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat"
         style={{
-          backgroundImage: "url('/src/assets/GetInTouchAsset/Spiral.svg')",
+          backgroundImage: `url(${Spiral})`,
           backgroundPosition: 'center',
         }}
       />

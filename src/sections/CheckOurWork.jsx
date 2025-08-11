@@ -3,6 +3,8 @@ import ImageCont from '../components/CheckOurWorkComp/ImageCont'
 import ReviewImage from '../components/CheckOurWorkComp/ReviewImage'
 import LeftArrow from '../assets/CheckOurWorkAsset/leftArrow.svg'
 import RightArrow from '../assets/CheckOurWorkAsset/RightArrow.svg'
+import BlueFlower from '../assets/CheckOurWorkAsset/BlueFlower.svg'
+
 
 function CheckOurWork() {
   return (
@@ -12,7 +14,7 @@ function CheckOurWork() {
       <div
         className="absolute bg-no-repeat top-[1448px] w-[799px] h-[841px] left-[351px] opacity-100 mix-blend-color-burn pointer-events-none"
         style={{
-          backgroundImage: "url('/src/assets/CheckOurWorkAsset/BlueFlower.svg')",
+          backgroundImage: `url(${BlueFlower})`,
         }}
       />
 
