@@ -10,7 +10,7 @@ function WhatWeDo() {
       What We do
     </h2>
 
-    {/*Cards Conatiner*/}
+    {/*Cards Container*/}
     <div className='mt-[32px] flex justify-center'>
       <CardsContainer />
     </div>
