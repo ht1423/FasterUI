@@ -1,0 +1,30 @@
+import React from 'react'
+import LeftRect from '../../assets/CheckOurWorkAsset/leftRect.svg'
+import MiddleRect from '../../assets/CheckOurWorkAsset/MidRect.svg'
+import RightRect from '../../assets/CheckOurWorkAsset/rightRect.svg'
+
+function ImageCont() {
+  return (
+    <div className="flex justify-center items-center gap-[32px] mt-[57px]">
+
+      {/* Left rectangle */}
+      <div className="w-[800px] h-[618px] flex justify-end items-center rounded-[10px] bg-white pr-[34px]">
+        <img src={LeftRect} alt="Project Left" className="h-[551px] rounded-[5px] z-10"/>
+      </div>
+
+      {/* Middle rectangle */}
+      <div className="w-[800px] h-[618px] flex justify-center items-center rounded-[10px] overflow-hidden bg-white/70">
+        <img src={MiddleRect} alt="Project Middle" className="w-[732px] h-[551px] rounded-[5px] z-10"
+        />
+      </div>
+
+      {/* Right rectangle */}
+      <div className="w-[800px] h-[618px] flex justify-start items-center rounded-[10px] bg-white pl-[34px]">
+        <img src={RightRect} alt="Project Right" className="h-[551px] rounded-[5px] z-10"
+        />
+      </div>
+    </div>
+  )
+}
+
+export default ImageCont
