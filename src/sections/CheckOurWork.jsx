@@ -2,7 +2,7 @@ import React from 'react'
 import ImageCont from '../components/CheckOurWorkComp/ImageCont'
 import ReviewImage from '../components/CheckOurWorkComp/ReviewImage'
 import LeftArrow from '../assets/CheckOurWorkAsset/leftArrow.svg'
-import RightArrow from '../assets/CheckOurWorkAsset/rightArrow.svg'
+import RightArrow from '../assets/CheckOurWorkAsset/RightArrow.svg'
 
 function CheckOurWork() {
   return (
