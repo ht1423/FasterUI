@@ -14,6 +14,7 @@ function CheckOurWork() {
       <div className="absolute top-[100px] w-[320px] h-[350px] sm:w-[380px] sm:h-[400px] sm:left-[150px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] lg:left-[250px] lg:top-[60px] xl:w-[600px] xl:h-[600px] xl:left-[370px] xl:top-[130px] 2xl:left-[420px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain bg-center z-0"
         style={{
           backgroundImage: `url(${BlueFlower})`,
+          transform : 'rotate(13deg)'
         }}
       />
 
