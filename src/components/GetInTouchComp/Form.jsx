@@ -11,10 +11,12 @@ function Form() {
     e.preventDefault();
     try {
 
-      const formData = new FormData();
-      formData.append('name', name);
-      formData.append('email', email);
-      formData.append('message', message);
+      const body = {
+        name,
+        email,
+        message,
+      };
+
 
       if (!name || !email || !message) {
         alert('Please fill in all fields');
@@ -24,11 +26,11 @@ function Form() {
 
       await axios.post(
         'https://phplaravel-1494371-5751203.cloudwaysapps.com/save-customer',
-        formData,
+        body,
         {
           headers: {
             'Accept': 'application/json',
-            'Content-Type': 'multipart/form-data',
+            'Content-Type': 'application/json',
           }
         }
       );
