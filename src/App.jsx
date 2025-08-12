@@ -9,7 +9,7 @@ import Contact from './sections/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="relative min-h-screen overflow-hidden">
       
       {/*Sections in order*/}
       <Hero />

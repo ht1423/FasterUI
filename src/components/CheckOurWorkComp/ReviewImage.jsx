@@ -8,10 +8,10 @@ import Star from '../../assets/CheckOurWorkAsset/Star 3.svg'
 
 function ReviewImage() {
   return (
-    <div className="mt-[86px] flex justify-center">
+    <div className="mt-[86px] flex justify-center ">
 
       {/* White div */}
-      <div className="w-[409px] h-[83px] bg-white border border-[#E4EAF8] rounded-[22px] flex items-center px-[23px]">
+      <div className="w-[350px] xl:w-[409px] h-[83px] bg-white border border-[#E4EAF8] rounded-[22px] flex items-center px-[10px] xl:px-[23px]">
         
         {/* Review images 5 */}
         <div className="flex items-center -space-x-3">
@@ -21,10 +21,10 @@ function ReviewImage() {
           ))}
         </div>
 
-        <div className="ml-[13px] flex flex-col">
+        <div className=" flex flex-col ml-[13px]">
 
           {/* Rating Based on Reviews */}
-          <p className="inter text-[16px] leading-[120%] capitalize">
+          <p className="inter text-[13px] xl:text-[16px] leading-[120%] capitalize whitespace-nowrap">
 
             <span className="font-semibold text-[#252422]">5.0</span>{' '}
             <span className="font-normal text-[rgb(152,150,173)]">Based on</span>{' '}

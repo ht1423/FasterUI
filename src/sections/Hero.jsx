@@ -8,8 +8,8 @@ function Hero() {
     <section className="relative z-10">
 
       {/* Mask Background Image */}
-      <img src={Mask} alt="" className="absolute left-[136.33px] h-[1008px] -z-10"/>
-
+      <img src={Mask} alt="" className="absolute left-[50.33px] top-[-100px] h-[1008px] -z-10 sm:left-[68px] sm:h-[504px] sm:top-[190px] md:left-[72px] md:top-[150px] md:h-[756px] lg:left-[50.33px] lg:h-[1008px] lg:top-0"/>
+      
       {/* Navbar and MainHeading Container */}
       <div>
         <Navbar />

@@ -1,12 +1,50 @@
-# React + Vite
+# My React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey! 👋👋 This is a simple React app I made. It’s all about showing cool stuff with nice design and smooth UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What’s this? 🙄
 
-## Expanding the ESLint configuration
+Basically, it’s a website built with React and Tailwind CSS. I focused on making it look clean and responsive, with some neat background images and components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## How to run it 
+
+Clone this repo:
+
+```bash
+git clone https://github.com/ht1423/FasterUI.git
+cd FasterUI
+npm install
+npm run dev
+
+```
+Open http://localhost:5173 in your browser and check it out!
+
+Ready to go! 🚀
+
+---
+
+## Tech I used 👩‍💻
+1.React
+2.Tailwind CSS for styling
+3.Just some simple JS and SVG images
+
+---
+
+##Project structure 📑
+
+src/
+├── assets/        # Images and icons
+├── components/    # All React components here
+├── App.jsx        # Main app file
+├── sections/      # 6 sections of the landing page
+
+
+##Live website Link
+
+https://faster-ui-ht.vercel.app/
+
+

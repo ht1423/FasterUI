@@ -27,8 +27,8 @@ function Card({ icon, title, description, rightImage, downImage, colSpan, rowSpa
 
       {/* Right Image */}
       {rightImage && (
-        <div className="bg-[#5B54FF] w-[218px] h-[214px] flex justify-center items-center rounded-[5px]">
-          <img src={rightImage} alt={`${title} right`} className="rounded-[5px] h-[59.15px]"
+        <div className="bg-[#5B54FF] w-[30%] lg:w-[40%] h-full xl:w-[218px] xl:h-[214px] flex justify-center items-center rounded-[5px]">
+          <img src={rightImage} alt={`${title} right`} className="rounded-[5px] h-[30px] md:h-[40px] lg:h-[50px] xl:h-[59.15px]"
           />
         </div>
       )}

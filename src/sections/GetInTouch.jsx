@@ -4,20 +4,20 @@ import Spiral from '../assets/GetInTouchAsset/spiral.svg'
 
 function GetInTouch() {
   return (
-    <section className='mt-[200px]'>
+    <section className='relative mt-[100px] w-full max-w-[1200px] mx-auto'>
 
       {/*SPrial Background Image*/}
-      <div className="absolute top-[3377px] left-[1107px] w-[235px] h-[218px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat"
+      <div className="absolute left-[280px] top-[-100px] w-[280px] h-[150px] sm:w-[280px] sm:h-[150px] sm:left-[400px] md:w-[200px] md:h-[150px] md:left-[650px] lg:w-[220px] lg:h-[180px] lg:left-[790px] xl:w-[235px] xl:h-[218px] xl:left-[1000px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain bg-center"
         style={{
           backgroundImage: `url(${Spiral})`,
-          backgroundPosition: 'center',
         }}
       />
+
 
       {/*Main heading and Form*/}
       <div className="flex flex-col justify-center items-center">
 
-        <h1 className='raleway font-bold text-[60px] leading-[120%] text-[#252432]'>Let's Get in Touch</h1>
+        <h1 className='raleway font-bold text-[32px] sm:text-[40px] md:text-[50px] lg:text-[60px] leading-[120%] text-[#252432]'>Let's Get in Touch</h1>
 
         <Form />
 

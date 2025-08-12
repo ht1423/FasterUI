@@ -59,8 +59,7 @@ const cardsData = [
 function CardsContainer() {
   return (
     <div
-      className="grid grid-cols-[repeat(4,280px)] auto-rows-[252px] gap-[32px]"
-    >
+      className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-5 lg:gap-6 xl:gap-8 auto-rows-auto">
       {cardsData.map((card, index) => (
         <Card key={index} {...card} />
       ))}
