@@ -8,7 +8,7 @@ import Idk from '../../assets/ContactAsset/idk.svg'
 
 function ContactCard() {
   return (
-    <div className="relative rounded-[40px] w-full max-w-[1216px] h-auto min-h-[300px] sm:min-h-[350px] lg:h-[398px] p-[24px_20px] sm:p-[40px_32px] lg:p-[60px_48px] xl:p-[84px_72px] bg-white mx-10 sm:mx-24 md:mx-4 lg:mx-[112px]"
+    <div className="relative rounded-[40px] w-full max-w-[1216px] h-auto min-h-[300px] sm:min-h-[350px] lg:h-[398px] p-[24px_28px] sm:p-[40px_32px] lg:p-[60px_48px] xl:p-[84px_72px] bg-white mx-6 sm:mx-24 md:mx-4 lg:mx-[112px]"
     >
         <div className="flex flex-col md:flex-row justify-between h-full gap-[32px] md:gap-0">
 
