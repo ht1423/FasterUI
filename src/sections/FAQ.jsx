@@ -18,7 +18,7 @@ function FAQ() {
         <div className="relative xl:mt-[341px] mt-[100px] md:mt-[150px] lg:mt-[200px]">
 
           {/* Left Heading */}
-          <h2 className="raleway font-bold  leading-[120%] text-[#252432] w-[454px] z-10 text-[32px] sm:text-[40px] lg:text-[60px] xl:w-[454px] lg:w-[400px] md:w-[250px]  sm:w-full xs:text-[28px]"> Frequently Asked Questions </h2>
+          <h2 className="raleway font-bold leading-[120%] text-[#252432] z-10 text-[25px] sm:text-[40px] lg:text-[60px] xl:w-[454px] lg:w-[400px] md:w-[250px] sm:w-full xs:text-[28px]"> Frequently Asked Questions </h2>
 
         </div>
 

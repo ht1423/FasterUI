@@ -7,7 +7,7 @@ function GetInTouch() {
     <section className='relative mt-[100px] w-full max-w-[1200px] mx-auto'>
 
       {/*SPrial Background Image*/}
-      <div className="absolute left-[280px] top-[-100px] w-[280px] h-[150px] sm:w-[280px] sm:h-[150px] sm:left-[400px] md:w-[200px] md:h-[150px] md:left-[650px] lg:w-[220px] lg:h-[180px] lg:left-[790px] xl:w-[235px] xl:h-[218px] xl:left-[1000px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain bg-center"
+      <div className="absolute left-[240px] top-[-100px] w-[280px] h-[150px] sm:w-[280px] sm:h-[150px] sm:left-[400px] md:w-[200px] md:h-[150px] md:left-[650px] lg:w-[220px] lg:h-[180px] lg:left-[790px] xl:w-[235px] xl:h-[218px] xl:left-[1000px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain bg-center"
         style={{
           backgroundImage: `url(${Spiral})`,
         }}
