@@ -7,6 +7,7 @@ function Form() {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -18,6 +19,11 @@ function Form() {
 
       if (!name || !email || !message) {
         alert('Please fill in all fields');
+        return;
+      }
+      
+      if (message.trim().length < 3) {
+        alert('Message should be at least 3 characters long');
         return;
       }
       
