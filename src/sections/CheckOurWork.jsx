@@ -11,7 +11,7 @@ function CheckOurWork() {
     <section className="relative w-full flex flex-col items-center  overflow-x-hidden">
 
       {/*Blue Flower BAckground Image*/}
-      <div className="absolute left-[-20px] top-[100px] w-[480px] h-[350px] sm:w-[380px] sm:h-[400px] sm:left-[150px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] lg:left-[250px] lg:top-[60px] xl:w-[600px] xl:h-[600px] xl:left-[370px] xl:top-[130px] 2xl:left-[420px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain bg-center z-0"
+      <div className="absolute left-[0px] top-[100px] w-[480px] h-[350px] sm:w-[380px] sm:h-[400px] sm:left-[150px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] lg:left-[250px] lg:top-[60px] xl:w-[600px] xl:h-[600px] xl:left-[370px] xl:top-[130px] 2xl:left-[420px] opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain bg-center z-0"
         style={{
           backgroundImage: `url(${BlueFlower})`,
         }}

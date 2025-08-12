@@ -5,10 +5,10 @@ import Gradient from '../assets/ContactAsset/gradient.svg'
 
 function Contact() {
   return (
-    <section className="relative mt-[156px] w-full flex justify-center items-center xl:pb-[100px]">
+    <section className="relative mt-[156px] w-full flex justify-center items-center">
       
       {/* Gradient background */}
-      <img src={Gradient} alt=""  className="absolute z-0 w-full py-20 max-w-[3004px] max-h-[1228px] left-0 opacity-100"/>
+      <img src={Gradient} alt=""  className="absolute z-0 w-full max-w-[3004px] max-h-[1228px] left-0 opacity-100 "/>
 
       {/* Wheel Background Image */}
       <div className="absolute w-[400px] h-[250px] sm:w-[400px] sm:h-[200px] md:w-[600px] md:h-[300px] lg:w-[800px] lg:h-[400px] xl:w-[1098px] xl:h-[525px] bottom-[380px] left-0 opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain"
