@@ -16,6 +16,12 @@ function Form() {
       formData.append('email', email);
       formData.append('message', message);
 
+      if (!name || !email || !message) {
+        alert('Please fill in all fields');
+        return;
+      }
+      
+
       await axios.post(
         'https://phplaravel-1494371-5751203.cloudwaysapps.com/save-customer',
         formData,
@@ -32,8 +38,9 @@ function Form() {
       setMessage('');
       alert('Message sent successfully!');
     } 
-    catch {
-      alert('Failed to send message.');
+    catch (error) {
+      console.error(error.response?.data || error.message);
+      alert('Failed to send message. Check console for details.');
     }
   };
   
