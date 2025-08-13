@@ -8,10 +8,11 @@ function Contact() {
     <section className="relative pt-24 w-full flex justify-center items-center  sm:pb-12 pb-8 md:pb-24">
       
       {/* Gradient background */}
-      <img src={Gradient} alt=""  className="absolute z-0 w-full max-w-[3004px] max-h-[600px py-24 sm:max-h-[800px] md:max-h-[1000px] lg:max-h-[1228px] left-0 opacity-100 "/>
+      <img src={Gradient} alt=""  className="absolute z-0 w-full h-[1228px] left-0 opacity-100 mt-[-270px] md:mt-[-250px] lg:mt-[-320px] xl:mt-[-350px]"/>
 
       {/* Wheel Background Image */}
-      <div className="absolute w-[400px] h-[250px] sm:w-[400px] sm:h-[200px] md:w-[600px] md:h-[300px] lg:w-[800px] lg:h-[400px] xl:w-[1098px] xl:h-[525px] bottom-[380px] left-0 opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain"
+      <div className="absolute w-[400px] h-[250px] sm:w-[400px] md:w-[600px] md:h-[300px] lg:w-[800px] lg:h-[400px] xl:w-[998px] xl:h-[525px]  left-0 opacity-100 mix-blend-color-burn pointer-events-none bg-no-repeat bg-contain top-[-50px] md:top-[-120px] lg:top-[-170px] xl:top-[-350px]"
+
         style={{
           backgroundImage: `url(${Wheel})`,
         }}

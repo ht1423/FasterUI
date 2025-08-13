@@ -2,7 +2,7 @@ import React from "react";
 
 function MainHeading() {
   return (
-    <div className=" xl:w-[764px] flex flex-col items-center mx-[40px] xl:mx-auto mt-[104px]">
+    <div className=" xl:w-[764px] flex flex-col items-center mx-[40px] xl:mx-auto mt-[70px]">
 
       {/*Hero Section Main Heading*/}
       <h1 className="text-[#252432] raleway font-bold text-[35px] sm:text-[50px] md:text-[60px] xl:text-[73.34px] leading-[100%] tracking-normal text-center"> Sleek UI Dark Theme <br></br> for Creative <br></br> Webflow Studios </h1>

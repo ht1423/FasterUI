@@ -17,7 +17,7 @@ function Card({ icon, title, description, rightImage, downImage, colSpan, rowSpa
         <h3 className="mt-[19px] inter font-[600] text-[19.77px] leading-[120%] text-[#252432]"> {title} </h3>
 
         {/* Paragraph */}
-        <p className="mt-[18px] max-w-[231px] inter font-normal text-[14px] leading-[150%] text-[#8987A1]"> {description} </p>
+        <p className="mt-[18px] inter font-normal text-[14px] leading-[150%] text-[#8987A1]"> {description} </p>
 
         {/* Down Image */}
         {downImage && (
@@ -27,7 +27,7 @@ function Card({ icon, title, description, rightImage, downImage, colSpan, rowSpa
 
       {/* Right Image */}
       {rightImage && (
-        <div className="flex-shrink-0 bg-[#5B54FF] w-[30%] lg:w-[40%] h-full xl:w-[218px] xl:h-[214px] ml-[15px] sm:ml-0 flex justify-center items-center rounded-[5px] overflow-hidden">
+        <div className="flex-shrink-0 bg-[#5B54FF] w-[30%] lg:w-[40%] h-full xl:w-[218px] xl:h-[214px] ml-[15px] md:ml-[35px] lg:ml-[50px] sm:ml-0 flex justify-center items-center rounded-[5px] overflow-hidden">
           <img src={rightImage} alt={`${title} right`} className="rounded-[5px] h-[30px] md:h-[40px] lg:h-[50px] xl:h-[59.15px]"
           />
         </div>
