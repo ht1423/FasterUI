@@ -25,10 +25,10 @@ function ReviewImage() {
           {/* Rating */}
           <p className="inter text-[11px] sm:text-[12px] md:text-[13px] xl:text-[16px] leading-[120%] capitalize whitespace-nowrap">
 
-            <span className="font-semibold text-[#252422]">5.0</span>{' '}
-            <span className="font-normal text-[rgb(152,150,173)]">Based on</span>{' '}
-            <span className="font-semibold text-[#252422]">145</span>{' '}
-            <span className="font-normal text-[rgb(152,150,173)]">Reviews</span>
+            <span className="font-semibold text-[#252422]"> 5.0 </span>{' '}
+            <span className="font-normal text-[rgb(152,150,173)]"> Based on </span>{' '}
+            <span className="font-semibold text-[#252422]"> 145 </span>{' '}
+            <span className="font-normal text-[rgb(152,150,173)]"> Reviews </span>
 
           </p>
 

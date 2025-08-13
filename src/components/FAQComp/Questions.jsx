@@ -61,39 +61,24 @@ function Questions() {
   return (
     <div className="flex flex-col gap-[16px] w-full max-w-[696px] px-4 sm:px-6 lg:px-0">
 
-      {/* Questions and Answer row */}
+      {/* Questions and Answer */}
       {faqs.map((faq, index) => {
         const isActive = activeIndex === index
         return (
-          <div
-            key={index}
-            className="bg-white rounded-[10px] px-4 sm:px-6 lg:px-[30px] py-4 sm:py-6 lg:py-[24px] flex flex-col w-full"
-          >
-            {/* Question */}
-            <div 
-              className="flex justify-between items-center cursor-pointer"
-              onClick={() => toggleFunc(index)}
-            >
-              <p className="inter font-medium text-[16px] sm:text-[18px] text-[#252432]">
-                {faq.question}
-              </p>
+          <div key={index} className="bg-white rounded-[10px] px-4 sm:px-6 lg:px-[30px] py-4 sm:py-6 lg:py-[24px] flex flex-col w-full">
 
-              <img
-                src={isActive ? MinusIcon : PlusIcon}
-                alt={isActive ? 'Minus' : 'Plus'}
-                className="w-[20px] h-[20px] sm:w-[24px] sm:h-[24px]"
-              />
+            {/* Question */}
+            <div className="flex justify-between items-center cursor-pointer" onClick={() => toggleFunc(index)}>
+              <p className="inter font-medium text-[16px] sm:text-[18px] text-[#252432]"> {faq.question}</p>
+
+              <img src={isActive ? MinusIcon : PlusIcon} alt={isActive ? 'Minus' : 'Plus'} className="w-[20px] h-[20px] sm:w-[24px] sm:h-[24px]"/>
             </div>
 
-            <div
-              className={`transition-all duration-200 overflow-hidden`}
-              style={{
+            <div className={`transition-all duration-200 overflow-hidden`} style={{
                 maxHeight: isActive ? '200px' : '0px'
               }}
             >
-              <p className="mt-[16px] inter font-normal text-[14px] sm:text-[16px] leading-[150%] text-[#8987A1]">
-                {faq.answer}
-              </p>
+              <p className="mt-[16px] inter font-normal text-[14px] sm:text-[16px] leading-[150%] text-[#8987A1]"> {faq.answer}</p>
             </div>
           </div>
         )

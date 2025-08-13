@@ -3,6 +3,7 @@ import React from 'react';
 function ImageCont({ visibleImages }) {
   return (
     <div className="relative w-full overflow-hidden ">
+      
         <div className="flex justify-center items-center px-4 md:px-0 gap-4 transition-transform duration-500 ease-in-out">
 
         {visibleImages.map((image, index) => (
