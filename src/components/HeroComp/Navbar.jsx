@@ -11,7 +11,7 @@ function Navbar() {
       </a>
 
       {/* Nav Links */}
-      <nav className="flex-grow-0 flex-shrink-0 order-3 lg:order-2 w-full lg:w-auto flex flex-row items-center justify-around md:justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:px-[56px] bg-white/60 backdrop-blur-md border border-white rounded-full lg:rounded-[20px] text-sm sm:text-base h-14 sm:h-[56px] md:h-[62px] lg:h-[65px] xl:h-[68px] py-3 inter leading-[150%]">
+      <nav className="flex-grow-0 flex-shrink-0 order-3 lg:order-2 w-full lg:w-auto flex flex-row items-center justify-around md:justify-center gap-4 sm:gap-6 px-4 md:px-0 md:gap-12 xl:px-[56px] bg-white/60 backdrop-blur-md border border-white rounded-full lg:rounded-[20px] text-sm sm:text-base h-14 sm:h-[56px] md:h-[62px] lg:h-[65px] xl:h-[68px] py-3 inter leading-[150%]">
 
         <a href="#" className="font-bold text-[#252432] transition-colors duration-200 hover:text-black">Home</a>
         <a href="#" className="text-[#8987A1] transition-colors duration-200 hover:text-[#17161b]">About</a>

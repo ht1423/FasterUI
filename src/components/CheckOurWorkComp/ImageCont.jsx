@@ -1,30 +1,20 @@
-import React from 'react'
-import LeftRect from '../../assets/CheckOurWorkAsset/leftRect.svg'
-import MiddleRect from '../../assets/CheckOurWorkAsset/MidRect.svg'
-import RightRect from '../../assets/CheckOurWorkAsset/rightRect.svg'
+import React from 'react';
 
-function ImageCont() {
+function ImageCont({ visibleImages }) {
   return (
-    <div className="flex justify-center items-center gap-[10px] md:gap-[15px] lg:gap-[25px] xl:gap-[32px] mt-[20px] md:mt-[30px] lg:mt-[40px] xl:mt-[57px]">
+    <div className="relative w-full overflow-hidden ">
+        <div className="flex justify-center items-center px-4 md:px-0 gap-4 transition-transform duration-500 ease-in-out">
 
-      {/* Left rectangle */}
-      <div className="h-[250px] py-[15px] sm:h-[350px] md:h-[400px] lg:h-[500px] xl:w-[800px] xl:h-[618px] flex justify-end items-center rounded-[10px] bg-white/70 pr-[10px] md:pr-[15px] lg:pr-[25px] xl:pr-[34px]">
-        <img src={LeftRect} alt="Project Left" className="w-full h-full rounded-[5px] object-cover z-10"/>
-      </div>
-
-      {/* Middle rectangle */}
-      <div className="h-[250px] py-[15px] px-[15px] sm:h-[350px] md:h-[400px] lg:h-[500px] xl:w-[800px] xl:h-[618px] flex justify-center items-center rounded-[10px] overflow-hidden bg-white/70">
-        <img src={MiddleRect} alt="Project Middle" className="w-full h-full rounded-[5px] object-cover z-10"
-        />
-      </div>
-
-      {/* Right rectangle */}
-      <div className="h-[250px] py-[15px] sm:h-[350px] md:h-[400px] lg:h-[500px] xl:w-[800px] xl:h-[618px] flex justify-start items-center rounded-[10px] bg-white/70 pl-[10px] md:pl-[15px] lg:pl-[25px] xl:pl-[34px]">
-        <img src={RightRect} alt="Project Right" className="w-full h-full rounded-[5px] object-cover z-10"
-        />
+        {visibleImages.map((image, index) => (
+          
+          // White outer rectangle with image
+          <div key={index} className="flex-shrink-0 py-6 rounded-[10px] shadow-lg bg-white/70 overflow-hidden w-[300px] h-[220px] sm:w-[400px] sm:h-[280px] md:w-[500px] md:h-[350px] lg:w-[800px] lg:h-[500px]">
+            <img src={image.src} alt={image.alt} className="w-full h-full object-contain" />
+          </div>
+        ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default ImageCont
+export default ImageCont;

@@ -4,7 +4,7 @@ function Card({ icon, title, description, rightImage, downImage, colSpan, rowSpa
   const flexDirectionClass = rightImage ? "flex-row" : "flex-col";
 
   return (
-    <div className={`relative w-full rounded-lg bg-white py-[29px] px-[24px] flex ${flexDirectionClass} shadow-md items-center ${colSpan === 2 ? "col-span-2" : "col-span-1"} ${rowSpan === 2 ? "row-span-2" : "row-span-1"}`}>
+    <div className={`relative w-full rounded-lg bg-white py-[29px] px-[24px] flex ${flexDirectionClass} shadow-md items-start ${colSpan === 2 ? "sm:col-span-2" : "col-span-1"} ${rowSpan === 2 ? "sm:row-span-2" : "row-span-1"} hover:scale-105 transform transition-all duration-300`}>
 
       <div className="flex flex-col flex-1">
 
@@ -27,7 +27,7 @@ function Card({ icon, title, description, rightImage, downImage, colSpan, rowSpa
 
       {/* Right Image */}
       {rightImage && (
-        <div className="flex-shrink-0 bg-[#5B54FF] w-[30%] lg:w-[40%] h-full xl:w-[218px] xl:h-[214px] flex justify-center items-center rounded-[5px] overflow-hidden">
+        <div className="flex-shrink-0 bg-[#5B54FF] w-[30%] lg:w-[40%] h-full xl:w-[218px] xl:h-[214px] ml-[15px] sm:ml-0 flex justify-center items-center rounded-[5px] overflow-hidden">
           <img src={rightImage} alt={`${title} right`} className="rounded-[5px] h-[30px] md:h-[40px] lg:h-[50px] xl:h-[59.15px]"
           />
         </div>
