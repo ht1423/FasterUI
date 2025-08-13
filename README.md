@@ -43,14 +43,6 @@ src/
 ├── sections/      # 6 sections of the landing page
 
 
-⚠️ Note about API Endpoint
-The live API endpoint (https://phplaravel-1494371-5751203.cloudwaysapps.com/save-customer) blocks requests due to CORS policy.
-
-To test locally, I’m using a proxy server via Vite to bypass CORS issues.
-
-For production, this means the form currently does not directly hit the live API and needs proper backend/proxy setup to work.
-
-
 ##Live website Link
 
 https://faster-ui-ht.vercel.app/
