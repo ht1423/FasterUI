@@ -5,13 +5,19 @@ import Mask from '../assets/HeroAsset/Mask group.svg'
 
 function Hero() {
   return (
-    <section className="relative z-10">
+    <section className="relative z-10 min-h-screen flex flex-col overflow-hidden">
 
       {/* Mask Background Image */}
-      <img src={Mask} alt="" className="absolute h-[1009px] left-[10.33px] top-[-100px] sm:h-[1008px] -z-10 sm:left-[68px] sm:top-[190px] md:left-[72px] md:top-[150px] md:h-[756px] lg:left-[50.33px] lg:h-[1008px] lg:top-0"/>
+      <div className="absolute inset-0 -z-10 bg-no-repeat bg-center bg-cover  sm:h-[1008px] lg:pt-24" style={{ 
+        backgroundImage: `url(${Mask})`, maxHeight: '1008px' }}
+      ></div>
+
+      <div className="absolute inset-0 -z-10" style={{ 
+        backgroundImage: `linear-gradient(to bottom, transparent 80%, rgba(244, 245, 255, 1) 100%)` }}
+      ></div>
 
       {/* Navbar and MainHeading Container */}
-      <div>
+      <div className="relative z-20 w-full max-w-7xl mx-auto flex flex-col items-center">
         <Navbar />
         <MainHeading />
       </div>

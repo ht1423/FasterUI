@@ -4,7 +4,7 @@ function Card({ icon, title, description, rightImage, downImage, colSpan, rowSpa
   const flexDirectionClass = rightImage ? "flex-row" : "flex-col";
 
   return (
-    <div className={`relative rounded-lg bg-white py-[29px] px-[24px] flex ${flexDirectionClass} items-center ${colSpan === 2 ? "col-span-2" : "col-span-1"} ${rowSpan === 2 ? "row-span-2" : "row-span-1"}`}>
+    <div className={`relative w-full rounded-lg bg-white py-[29px] px-[24px] flex ${flexDirectionClass} shadow-md items-center ${colSpan === 2 ? "col-span-2" : "col-span-1"} ${rowSpan === 2 ? "row-span-2" : "row-span-1"}`}>
 
       <div className="flex flex-col flex-1">
 
@@ -21,13 +21,13 @@ function Card({ icon, title, description, rightImage, downImage, colSpan, rowSpa
 
         {/* Down Image */}
         {downImage && (
-          <img src={downImage} alt={`${title} down`} className="w-[238px] h-[257px] rounded-[5px] mt-[41px]"/>
+          <img src={downImage} alt={`${title} down`} className=" w-full h-auto object-cover rounded-[5px] mt-[41px]"/>
         )}
       </div>
 
       {/* Right Image */}
       {rightImage && (
-        <div className="bg-[#5B54FF] w-[30%] lg:w-[40%] h-full xl:w-[218px] xl:h-[214px] flex justify-center items-center rounded-[5px]">
+        <div className="flex-shrink-0 bg-[#5B54FF] w-[30%] lg:w-[40%] h-full xl:w-[218px] xl:h-[214px] flex justify-center items-center rounded-[5px] overflow-hidden">
           <img src={rightImage} alt={`${title} right`} className="rounded-[5px] h-[30px] md:h-[40px] lg:h-[50px] xl:h-[59.15px]"
           />
         </div>
