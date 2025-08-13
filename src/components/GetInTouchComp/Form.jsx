@@ -29,7 +29,7 @@ function Form() {
       
 
       await axios.post(
-        '/save-customer',
+        'https://phplaravel-1494371-5751203.cloudwaysapps.com/save-customer',
         formData,
         {
           headers: {
