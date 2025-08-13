@@ -54,7 +54,7 @@ function CheckOurWork() {
         <div className="flex items-center gap-[20px] sm:gap-[30px] md:gap-[50px] lg:gap-[100px] xl:gap-[188px] mt-[150px] xl:mt-[216px] z-10">
 
           {/* Left Arrow Circle */}
-          <div onClick={handlePrevImg} className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[40px] xl:w-[78px] xl:h-[78px] bg-white rounded-full flex justify-center items-center cursor-pointer mb-[-8px] md:mb-[-12px] lg:[-16px] xl:mb-[-18px] shadow-md transition-transform hover:scale-105">
+          <div onClick={handlePrevImg} className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] xl:w-[78px] xl:h-[78px] bg-white rounded-full flex justify-center items-center cursor-pointer mb-[-8px] md:mb-[-12px] lg:[-16px] xl:mb-[-18px] shadow-md transition-transform hover:scale-105 whitespace-nowrap">
             <img src={LeftArrow} alt="Left Arrow" className="w-[24px] h-[24px] lg:w-[36px] lg:h-[36px]" />
           </div>
 
@@ -64,7 +64,7 @@ function CheckOurWork() {
           </h1>
 
           {/* Right Arrow Circle */}
-          <div onClick={handleNextImg} className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[40px] xl:w-[78px] xl:h-[78px] bg-white rounded-full flex justify-center items-center cursor-pointer mb-[-8px] md:mb-[-12px] lg:[-16px] xl:mb-[-18px] shadow-md transition-transform hover:scale-105">
+          <div onClick={handleNextImg} className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] xl:w-[78px] xl:h-[78px] bg-white rounded-full flex justify-center items-center cursor-pointer mb-[-8px] md:mb-[-12px] lg:[-16px] xl:mb-[-18px] shadow-md transition-transform hover:scale-105">
             <img src={RightArrow} alt="Right Arrow" className="w-[24px] h-[24px] lg:w-[36px] lg:h-[36px]" />
           </div>
         </div>
